@@ -237,9 +237,12 @@ footer{
     header{
         background-color: #FFFFFF;
         padding: 1em;
-        margin: 1em auto;}
+        margin: 0 auto 1em;}
     .texto{
         width: 100%;
+    }
+    .aviso1{
+        font-size: 30px;
     }
     .imagen{
         display: none;
