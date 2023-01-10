@@ -204,7 +204,7 @@ footer{
         display: none;
     }
 }
-/*@media screen and (max-width: 880px){
+@media screen and (min-width: 481px) and (max-width: 880px){
     .container{
         margin: 0 auto;
     }
@@ -221,7 +221,7 @@ footer{
         margin-bottom: 10em;
     }
     textarea{
-        height: 500px;
+        height: 380px;
     }
     .boton{
         width: 100%;
@@ -235,7 +235,7 @@ footer{
         font-size: 20px;
     }
     header{
-        background-color: #CEEDC7;
+        background-color: #FFFFFF;
         padding: 1em;
         margin: 1em auto;}
     .texto{
@@ -244,4 +244,7 @@ footer{
     .imagen{
         display: none;
     }
-}*/
+    textarea.texto-final{
+        height: auto;
+    }
+}
