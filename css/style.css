@@ -1,0 +1,247 @@
+body{
+    background-image: url(../banners/bgimg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    background-attachment: fixed;
+    
+    
+}
+header{
+    background-color: #FFFFFF;
+    padding-top: 15PX;
+    padding-bottom:15px ;
+    margin-bottom:50px ;
+
+}
+.logo{
+    margin: 0 2em;
+    width: 20px;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    height: 100vh;
+    
+  
+}
+section{
+    float: left;
+    width: 55%;
+    font-size: 12px;
+
+}
+textarea{
+    background-color: transparent;
+    border-style:none ;
+    border-radius: 0.5em;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+textarea:focus{
+    outline: none;
+}
+textarea::placeholder{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    color: #FFFFFF;
+    padding: 1.5em;
+}
+section p{
+    text-align: right;
+    color: #FFFFFF;
+}
+.texto{
+    width: 100%;
+}
+
+.boton{
+    padding: 10px 20px;
+    width: 48%;
+    border-style: none;
+    border-radius: 3em;
+    margin: 1.2em auto;
+    box-shadow:  10px 12px 18px -4px rgba(112,96,96,1);
+}
+#encripta{
+    background-color: #FFFFFF;
+    color: #0E7356;
+    font-weight: bold;
+}
+#encripta:hover{
+    background-color: #EDEDED;
+    transform: scale(1.02);
+    transition: 10ms;
+}
+#encripta:active{
+    background-color: #cacaca;
+}
+#desencripta{
+    background-color: #0E7356;
+    color: #FFFFFF;
+}
+#desencripta:hover{
+    background-color: #0B5A43;
+    transform: scale(1.02);
+    transition: 10ms;
+}
+#desencripta:active{
+    background-color: #063729;
+}
+aside{
+    border-style:none ;
+    border-radius: 0.5em;
+    float: right;
+    width: 40%;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    box-shadow:  10px 12px 18px -4px rgba(112,96,96,1);
+
+}
+
+.imagen{
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+aside p{
+    clear: both;
+    margin: 0 1em;
+}
+.aviso1{
+    font-size: 20px;
+    color: #063729;
+    font-weight: bold;
+    margin: 0.8em, auto;
+}
+.aviso2{
+    margin-bottom: 2em;
+}
+textarea.texto-final:focus{
+    outline: none;
+}
+textarea.texto-final::selection{
+    background-color: transparent;
+}
+textarea.texto-final::-moz-selection{
+    background-color: transparent;
+}
+#result{
+    background-color: #ffffff;
+    margin: 1em auto;
+    width: 80%;
+    display: none;
+    border-radius: 0.5em;
+    color: #063729;
+    font-weight: bold;
+    font-size: 20px;
+}
+#copiar{
+    width: 80%;
+    display: none;
+}
+#copiar:hover{
+    background-color: #EDEDED;
+    transform: scale(1.02);
+    transition: 10ms;
+}
+#copiar:active{
+    background-color: #DADADA;
+}
+footer{
+    color: #FFFFFF;
+    font-weight: bold;
+    clear: both;
+    text-align: center;
+    padding: 20px 0;
+  
+}
+
+
+@media screen and (max-width: 480px){
+    .container{
+        margin: 0 auto;
+    }
+    section{
+     
+        float: none;
+        width: 100%;
+    }
+    textarea{
+        font-size: 17px;
+    }
+    textarea::placeholder{
+        font-size: 17px;
+        padding: 0.8em;
+    }
+    aside{
+        padding: 1em 0;
+        float: none;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 10em;
+    }
+    .boton{
+        width: 100%;
+        margin: 0.5em auto;
+    }
+    section p{
+        text-align: left;
+    }
+    header{
+        background-color: #FAFAFA;
+        padding: 1em;
+        margin: 0 auto 1em;}
+    .texto{
+        width: 100%;
+    }
+    .imagen{
+        display: none;
+    }
+}
+/*@media screen and (max-width: 880px){
+    .container{
+        margin: 0 auto;
+    }
+    section{
+     
+        float: none;
+        width: 100%;
+    }
+    aside{
+        padding: 2em 0;
+        float: none;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 10em;
+    }
+    textarea{
+        height: 500px;
+    }
+    .boton{
+        width: 100%;
+        margin: 0.5em auto;
+        padding: 2em 0;
+    }
+    section p{
+        text-align: left;
+    }
+    aside p{
+        font-size: 20px;
+    }
+    header{
+        background-color: #CEEDC7;
+        padding: 1em;
+        margin: 1em auto;}
+    .texto{
+        width: 100%;
+    }
+    .imagen{
+        display: none;
+    }
+}*/

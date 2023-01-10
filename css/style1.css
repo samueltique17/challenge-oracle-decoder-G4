@@ -1,0 +1,116 @@
+/*Css para el body*/
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+ 
+}
+.logo{
+    margin: 1.5em 2em;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 75%;
+    margin: 1em 5em;
+}
+#casilla{
+
+    width: 80%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0A3871;
+}
+.alerta{
+    text-align: end;
+    font-size: 0.8em;
+    margin-right: 20%;
+}
+#error{
+    background-color: rgba(17, 0, 255, 0.342);
+}
+.buttons{
+    margin: 1.5em 5em;
+    
+}
+.boton1{
+
+    padding: 20px;
+    width: 35%;
+    margin-right: 10px;
+    background: #0A3871;
+    color: #FFFFFF;
+    border-radius: 3em;
+    border-style: none;
+
+    
+}
+.boton2{
+
+    padding: 20px;
+    width: 35%;
+    margin-right: 10px;
+    background: #FFFFFF;
+    color: #0A3871;
+    border-radius: 3em;
+    border-style: none;
+
+    
+}
+.boton1:hover{
+    transform: scale(1.02);
+    background:#052051 ;
+    transition: 10ms;
+}
+.boton2:hover{
+    transform: scale(1.02);
+    background:#EFF1FA ;
+    transition: 10ms;
+}
+
+.resultado{
+    position: absolute;
+    width: 20%;
+    height: 90%;
+    left: 75%;
+    right: 5%;
+    top: 40px;
+    border-radius: 3em;
+    background-color: #FFFFFF;
+    
+}
+
+#luffy{
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    margin: 2em 2em;
+  
+}
+p{
+    text-align: center;
+    margin-top: 5px;
+ 
+    
+}
+
+/*CSS para nuestro footer*/
+footer{
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    top: 70%;
+    
+}
+.flag{
+    width: 8%;
+    height: 10%;
+
+ 
+}
+.informacion{
+    margin-top: 10px;
+    font-size: 0.8em;
+}
