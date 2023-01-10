@@ -5,18 +5,13 @@ let copiar = document.getElementById("copiar");
 
 
 function darFormato(cadena){
-    let aMayus = cadena.replace(/[ÁÀÄÂ]/g,'A');
-    let aMinus = aMayus.replace(/[áàäâ]/g,'a');
-    let eMayus = aMinus.replace(/[ÉÈËÊ]/g,'E');
-    let eMinus = eMayus.replace(/[éèëê]/g,'e');
-    let iMayus = eMinus.replace(/[ÍÌÏÎ]/g,'I');
-    let iMinus = iMayus.replace(/[íìïî]/g,'i');
-    let oMayus = iMinus.replace(/[ÓÒÖÔ]/g,'O');
-    let oMinus = oMayus.replace(/[óòöô]/g,'o');
-    let uMayus = oMinus.replace(/[ÚÙÜÛ]/g,'U');
-    let uMinus = uMayus.replace(/[úùüû]/g,'u');
-    let enieMayus = uMinus.replace(/[Ñ]/g,'N');
-    let enieMinus = enieMayus.replace(/[ñ]/g,'n');
+    
+    let aMinus = cadena.replace(/[áàäâ]/g,'a');
+    let eMinus = aMinus.replace(/[éèëê]/g,'e');
+    let iMinus = eMinus.replace(/[íìïî]/g,'i');
+    let oMinus = iMinus.replace(/[óòöô]/g,'o');
+    let uMinus = oMinus.replace(/[úùüû]/g,'u');
+    let enieMinus = uMinus.replace(/[ñ]/g,'n');
     let resultado = enieMinus.replace(/['|°¬!^`~"#$%&/()Çç=?¿{}_,.´+<>¡¨*:;]/gi,'');
 
     return resultado;
@@ -31,8 +26,8 @@ function encriptar(){
         
     }
     if(texto!=""){
-        texto= darFormato(texto) 
         texto=texto.toLowerCase()
+        texto= darFormato(texto) 
         texto=texto.replaceAll("e", "enter");
         texto=texto.replaceAll( "o", "ober");
         texto=texto.replaceAll( "i", "imes");
@@ -58,9 +53,9 @@ function desencriptar(){
         document.getElementById("advertencia").style.color= "red"
         
     }
-    if(texto!=""){texto= 
+    if(texto!=""){
+        texto=texto.toLowerCase()  
         texto= darFormato(texto)
-        texto=texto.toLowerCase() 
         texto=texto.replaceAll("enter","e" );
         texto=texto.replaceAll( "ober","o" );
         texto=texto.replaceAll( "imes","i" );
