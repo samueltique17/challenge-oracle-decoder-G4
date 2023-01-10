@@ -218,15 +218,15 @@ footer{
         float: none;
         width: 100%;
         margin-top: 1em;
-        margin-bottom: 10em;
+        margin-bottom: 4em;
     }
     textarea{
-        height: 380px;
+        height: 420px;
     }
     .boton{
-        width: 100%;
+        width: 48%;
         margin: 0.5em auto;
-        padding: 2em 0;
+        padding: 1.5em 0;
     }
     section p{
         text-align: left;
