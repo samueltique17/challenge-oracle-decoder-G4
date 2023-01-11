@@ -139,6 +139,7 @@ textarea.texto-final::-moz-selection{
     color: #063729;
     font-weight: bold;
     font-size: 20px;
+    min-height: 208px
 }
 #copiar{
     width: 80%;
@@ -199,6 +200,9 @@ footer{
         margin: 0 auto 1em;}
     .texto{
         width: 100%;
+    }
+    #result{
+        min-height: auto;
     }
     .imagen{
         display: none;
